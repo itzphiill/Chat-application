@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "anchorme": "^2.1.2",
+    "autolinker": "^3.14.3",
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "jquery-linkify": "^2.2.1",
+    "linkify-element": "^3.0.4",
+    "linkify-html": "^3.0.4",
+    "linkify-jquery": "^3.0.4",
+    "linkify-string": "^3.0.4",
+    "linkifyjs": "^3.0.4",
+    "socket.io": "4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
